@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.text-slider-items {
+    display: none;
+}
+  
+.heading {
+    /* border: 2px solid red; */
+    text-align: center;
+}
+  
+.heading h1 {
+    color:magenta;
+    font-size: 40px;
+    margin-top: 10rem;
+}
