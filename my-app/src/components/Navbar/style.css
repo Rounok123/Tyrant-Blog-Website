@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav img{
+    height: 28px;
+    width: 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(192, 9, 9);
+    font-weight: bold;
+    margin-top: 2px;
+}
+nav ul li a:hover{
+    color: rgb(0, 255, 242);
+}

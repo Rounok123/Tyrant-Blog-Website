@@ -1,38 +1,16 @@
 import React from 'react';
-import {
-Nav,
-NavLink,
-Bars,
-NavMenu,
-NavBtn,
-NavBtnLink,
-} from './NavbarElements';
-
+import './style.css';
 const Navbar = () => {
 return (
-	<>
-	<Nav>
-		<Bars />
-
-		<NavMenu>
-		<NavLink to='/home' activeStyle>
-			Home
-		</NavLink>
-		<NavLink to='/about' activeStyle>
-			About
-		</NavLink>
-		<NavLink to='/contacts' activeStyle>
-			Contacts
-		</NavLink>
-		<NavLink to='/blogs' activeStyle>
-			Blogs
-		</NavLink>
-		</NavMenu>
-		<NavBtn>
-		<NavBtnLink to='/signin'>Sign In</NavBtnLink>
-		</NavBtn>
-	</Nav>
-	</>
+	<nav>
+		<img src="./favicon.png"></img>
+		<ul>
+			<li><a href="/home">Home</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/contacts">Always Welcome</a></li>
+			<li><a href="/blogs">Blogs</a></li>
+		</ul>
+	</nav>
 );
 };
 
