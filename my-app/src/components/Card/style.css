@@ -6,43 +6,45 @@
 body {
   background-color: #f3fbfb;
   font-family: "Open Sans", sans-serif;
-  display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  margin: 1px;
+  max-width: 1000px;
+  height: 600vh;
+  margin: auto;
 }
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  width: 540px;
-  margin: auto;
+  grid-template-columns: repeat(3,auto);
+  gap: 5px;
+  max-width: 1000px;
+  margin-top: 10px;
+  margin-left: 50px;
 }
 .card {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  width: 150px;
+  overflow: clip;
+  width: 250px;
+  height: 400px;
 }
 .card-header img {
   width: 100%;
-  height: 80px;
+  height: 150px;
   object-fit: cover;
 }
 .card-body {
   display: flex;
   flex-direction: column;
   align-items: start;
-  font-size: 9px;
+  font-size: 13px;
   height: 200px;
   padding: 10px;}
 .tag {
   background-color: #ccc;
   color: #fff;
   border-radius: 50px;
-  font-size: 6px;
+  font-size: 10px;
   margin: 0;
   padding: 2px 10px;
   text-transform: uppercase;
@@ -60,18 +62,18 @@ body {
   margin: 10px 0;
 }
 .card-body p {
-  font-size: 6px;
+  font-size: 10px;
   margin: 0 0 40px 0;
   font-weight: 500;
   color: rgb(70, 68, 68);
 }
 .user {
   display: flex;
-  margin-top: auto;
+  margin-top: 10px;
 }
 .user img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   margin-right: 10px;
   object-fit: cover;

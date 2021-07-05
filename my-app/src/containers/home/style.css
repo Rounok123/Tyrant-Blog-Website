@@ -1,13 +1,11 @@
 #home{
-    text-align: center;
+    text-align: left;
 }
 #home::before{
     content: "";
-    background: url('../../components/img/bg-1.jpg') no-repeat center center/cover;
     position: absolute;
     top:0px;
     left:0px;
-    height: 503px;
     width: 100%;
     z-index: -1;
     opacity:1;

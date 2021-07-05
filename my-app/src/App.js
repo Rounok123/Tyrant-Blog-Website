@@ -13,7 +13,7 @@ return (
 	<Router>
 		<Navbar/>
 		<Switch>
-			<Route path='/home' exact component={Home} />
+			<Route path='/' exact component={Home} />
 			<Route path='/about' component={About} />
 			<Route path='/contacts'component={Contacts}/>
 			<Route path='/blogs' component={Blogs} />
