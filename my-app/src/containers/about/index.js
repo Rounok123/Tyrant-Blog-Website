@@ -8,13 +8,13 @@ return (
 	<div>
 		<div id="our-mission">
 			<h1 id="first">Our Mission</h1>
-			<p> Curiosity2Create will equip young minds with the skills and attitudes needed for fearless exploration, creative problem-solving, and self-discovery through interactive project-based programming.</p>
+			<p id="firstp"> Curiosity2Create will equip young minds with the skills and attitudes needed for fearless exploration, creative problem-solving, and self-discovery through interactive project-based programming.</p>
 		</div>
 		<div id="our-vission">
 			<p> Curiosity2Create will equip young minds with the skills and attitudes needed for fearless exploration, creative problem-solving, and self-discovery through interactive project-based programming.</p>
 		</div>
 		<div id="my-team">
-			<h1>Our Team</h1>
+			<h1 id="t">Our Team</h1>
 			<img src={Dimg} className="team"></img>
 			<img src={Rimg} className="team"></img>
 		</div>
