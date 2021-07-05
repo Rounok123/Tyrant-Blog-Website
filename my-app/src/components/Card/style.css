@@ -6,7 +6,7 @@
 body {
   background-color: #f3fbfb;
   font-family: "Open Sans", sans-serif;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   height: 100vh;
