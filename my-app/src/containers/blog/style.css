@@ -1,0 +1,11 @@
+.showcase
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rosybrown;
+    height: auto;
+    width: auto;
+    box-shadow: 20px;
+
+}
