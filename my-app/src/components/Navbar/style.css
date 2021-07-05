@@ -20,8 +20,13 @@ nav::before{
     opacity: 0.43;
 }
 nav img{
+<<<<<<< HEAD
     height: 50px;
     width: 50px;
+=======
+    height: 48px;
+    width: 48px;
+>>>>>>> eb67da6ff9fc7d520d72cab60080f97b213d9d49
 }
 nav ul{
     display: flex;
@@ -36,6 +41,8 @@ nav ul li a{
     color: magenta;
     font-weight: bold;
     margin-top: 2px;
+    font-size: 1.8rem
+    ;
 }
 nav ul li a:hover{
     color: rgb(0, 255, 242);

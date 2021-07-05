@@ -4,20 +4,29 @@ import './style.css';
 
 const Home  = props => {
     return (
-        <div id="home">
-            <h1>Welcome to Tyrant Bloging</h1>
-            <h3 id="type">
-            <Typed className="text-type"
-                strings={["uhgiuer","isd,ogfgf","hlcshcks"]}
-                typeSpeed={40}
-                backSpeed={60}
-                loop
-            />
-            </h3>
+        <div className="main">
 
-            {/* <h2><a href="#" id="btn">Go To Blog</a></h2> */}
+            <div id="home">
+                <h1>Change the world by being yourself</h1>
+                <h3 id="type">
+                <Typed className="text-type"
+                    strings={["Welcome to Tyrant blogging",
+                    "Love For All, Hatred For None.",
+                    "Die with memories, not dreams",
+                    "Aspire to inspire before we expire"]}
+                    typeSpeed={50}
+                    backSpeed={50}
+                    loop
+                />
+                </h3>
+            </div>
+
+            <div id="testimonials">
+                <h1>Testimonials</h1>
+            </div>
+            
         </div>
-    );
+      );
 }
 
 export default Home;
