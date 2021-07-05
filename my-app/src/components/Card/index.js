@@ -3,21 +3,44 @@ import "./style.css";
 
 const Card = (props) => {
   return (
-    <section>
-  <h2>Horizontal Scrolling Cards</h2>
-  <div class="cards-wrapper">
-    <div class="card"><p>Card 1</p></div>
-    <div class="card"><p>Card 2</p></div>
-    <div class="card"><p>Card 3</p></div>
-    <div class="card"><p>Card 4</p></div>
-    <div class="card"><p>Card 5</p></div>
-    <div class="card"><p>Card 6</p></div>
-    <div class="card"><p>Card 7</p></div>
-    <div class="card"><p>Card 9</p></div>
-    <div class="card"><p>Card 9</p></div>
-    <div class="card"><p>Card 10</p></div>
+    <div>
+    <div class="blog-card">
+  <div class="header">
+    <h2 class="category">Travel</h2>
   </div>
-</section>
+
+  <div class="content">
+    <div class="picture-wrapper"></div>
+        
+    <div class="text-wrapper">  
+      <h1 class="title">10 great things to do in Buenos Aires</h1>
+      <h3 class="author">By Natalia Lavega</h3>
+      <p class="text">
+        The beginning of spring is one of the best moments to 
+        visit the city. Let's explore...
+      </p>
+    </div>
+  </div>
+</div>
+<div class="blog-card">
+  <div class="header">
+    <h2 class="category">Travel</h2>
+  </div>
+
+  <div class="content">
+    <div class="picture-wrapper"></div>
+        
+    <div class="text-wrapper">  
+      <h1 class="title">10 great things to do in Buenos Aires</h1>
+      <h3 class="author">By Natalia Lavega</h3>
+      <p class="text">
+        The beginning of spring is one of the best moments to 
+        visit the city. Let's explore...
+      </p>
+    </div>
+  </div>
+</div>
+</div>
   );
 };
 

@@ -1,40 +1,87 @@
-:root {
-  --page-margin: min(2rem, 5vw);
-  color: #444;
-}
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
-section {
-  display: grid;
-  grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
-}
-section > * {
-  grid-column: center;
-}
-
-.cards-wrapper {
-  grid-column: center-start/-1;
-  overflow: auto;
-  display: flex;
-  padding-bottom: 1em;
-}
-.cards-wrapper .card {
-  background-color: #d0f0ee;
-  color: #15928a;
-  height: 20em;
-  min-width: 13em;
-  margin-right: 1em;
-  display: flex;
-  align-items: center;
+body {
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(198,206,201,0.5);
+  font-size: 16px;
 }
-.cards-wrapper .card p {
-  font-size: 1.5em;
+
+.blog-card {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2),
+              -1px -1px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 2vh;
 }
-.cards-wrapper .card:last-child {
-  margin-right: 0;
+
+.header {
+  background-color: #5A80B4;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-.cards-wrapper::after {
-  content: "";
-  display: block;
-  min-width: var(--page-margin);
+
+.category {
+  margin: 0;
+  padding: 1vw;
+  color: #fff;
+  font-size: 1em;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-transform: uppercase;
+}
+
+.picture-wrapper {
+  height: 300px;
+  width: 100%;
+  background-image:url("https://www.thoughtco.com/thmb/9-TaSUt-qCdOp1Xh3P43mutTmeA=/2121x1414/filters:fill(auto,1)/GettyImages-887987150-5c770377c9e77c00011c82e6.jpg");
+  background-size: cover;
+}
+
+.text-wrapper {
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 1.25em;
+  padding: 6vh 4vh 2vh 4vh;
+}
+
+.author {
+  font-size: 0.75em;
+  padding-left: 4vh;
+  font-style: italic;
+}
+
+.text {
+  font-size: 1em;
+  padding: 4vh 4vh;
+}
+
+.hover {
+  font-size: 1.5625em;
+}
+
+
+@media screen and (min-width: 700px) {
+  .blog-card {
+    width: 600px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+    
+  .picture-wrapper {
+    height: auto;
+    width: 60%;
+    border-bottom-left-radius: 10px;
+  }
+
+  .title {
+    padding-right: 10vh;
+  }
 }
