@@ -1,33 +1,31 @@
 .main{
     text-align: center;
-     background-image: url("https://cdn.pixabay.com/photo/2019/01/26/11/56/flowers-3956074_960_720.jpg");
-
 }
 #home{
-    text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    height: 37rem;
+    height: 35rem;
 }
 #home::before{
-    content: "";
-    position: absolute;
-    top:0px;
-    left:0px;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity:1;
+  content: "";
+  background: url('../../components/img/bg-1.jpg') no-repeat center center/cover;
+  position: absolute;
+  top:0px;
+  left:0px;
+  height: 625px;
+  width: 100%;
+  z-index: -1;
+  opacity:0.79;
 }
 h1{
-    color: rgb(226, 222, 0);
-    margin-top: 2px;
+    color: #e2de00;
+    margin-bottom: 7rem;
+    margin-top: 8.2rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 52px;
 }
 #type{
     margin-top: 14px;
@@ -40,44 +38,3 @@ h1{
 
 /* ---------------------------------Testimonial section------------------------------- */
 
-/* Style the container with a rounded border, grey background and some padding and margin */
-.container {
-    border: 2px solid #ccc;
-    background-color: #eee;
-    border-radius: 5px;
-    padding: 16px;
-    margin: 16px 0;
-  }
-  
-  /* Clear floats after containers */
-  .container::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-  .container img {
-    float: left;
-    margin-right: 20px;
-    border-radius: 50%;
-  }
-  
-  /* Increase the font-size of a span element */
-  .container span {
-    font-size: 20px;
-    margin-right: 15px;
-  }
-  
-  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
-  @media (max-width: 500px) {
-    .container {
-      text-align: center;
-    }
-  
-    .container img {
-      margin: auto;
-      float: none;
-      display: block;
-    }
-  }

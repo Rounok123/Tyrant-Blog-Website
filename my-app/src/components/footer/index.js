@@ -7,7 +7,7 @@ function footer() {
       <footer class="footer-distributed">
         <div class="footer-left">
           <h3>
-              <img src="favicon.png"/> 
+              <img src="favicon.png" id="logo"/> 
           </h3>
 
           <p class="footer-links">

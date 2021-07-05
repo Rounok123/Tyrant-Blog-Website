@@ -8,7 +8,7 @@ section {
   width: 100%;
   display: inline-block;
   background: #333;
-  height: 50vh;
+  height: 30vh;
   text-align: center;
   font-size: 22px;
   font-weight: 700;
@@ -22,7 +22,7 @@ section {
   width: 100%;
   text-align: left;
   font: bold 16px sans-serif;
-  padding: 55px 50px;
+  padding: 35px 40px;
 }
 
 .footer-distributed .footer-left,
@@ -44,6 +44,11 @@ section {
   color: #ffffff;
   font: normal 36px "Open Sans", cursive;
   margin: 0;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
 }
 
 .footer-distributed h3 span {

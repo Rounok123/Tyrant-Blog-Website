@@ -22,22 +22,6 @@ const Home = (props) => {
         </div>
 
         <div id="testimonials">
-          <h1>Testimonials</h1>
-          <div className="container">
-            <img src="bandmember.jpg" alt="Avatar" />
-            <p>
-              <span>Chris Fox.</span> CEO at Mighty Schools.
-            </p>
-            <p>John Doe saved us from a web disaster.</p>
-          </div>
-
-          <div className="container">
-            <img src="avatar_g2.jpg" alt="Avatar" />
-            <p>
-              <span>Rebecca Flex.</span> CEO at Company.
-            </p>
-            <p>No one is better than John Doe.</p>
-          </div>
         </div>
     </div>
   );
