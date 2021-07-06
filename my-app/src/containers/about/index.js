@@ -8,10 +8,10 @@ return (
 	<div>
 		<div id="our-mission">
 			<h1 id="first">Our Mission</h1>
-			<p id="firstp"> Curiosity2Create will equip young minds with the skills and attitudes needed for fearless exploration, creative problem-solving, and self-discovery through interactive project-based programming.</p>
+			<p id="firstp"> To enhancing the business growth of our customers with creative Design and Development to deliver market-defining high-quality solutions that create value and consistent competitive advantage for our clients around the world.</p>
 		</div>
 		<div id="our-vission">
-			<p> Curiosity2Create will equip young minds with the skills and attitudes needed for fearless exploration, creative problem-solving, and self-discovery through interactive project-based programming.</p>
+			<p> Curiosity2Create will equip young minds with the skills and attitudes needed for fearless exploration, We take pride in our on time delivery and ability to meet quick turn around requests while exceeding customer quality demands..</p>
 		</div>
 		<div id="my-team">
 			<h1 id="t">Our Team</h1>
