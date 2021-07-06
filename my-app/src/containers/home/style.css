@@ -1,3 +1,6 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100;300;600&display=swap');
+
 .main{
     text-align: center;
 }
@@ -23,18 +26,39 @@
 #header{
     color: #e2de00;
     margin-bottom: 7rem;
-    margin-top: 13.2rem;
+    margin-top: 10.2rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
     font-size: 52px;
+    font-family: 'Tourney', cursive;
 }
 #type{
     margin-top: 14px;
+        font-family: 'Roboto Condensed', sans-serif;
 }
 .text-type{
-    color: rgb(247, 47, 97);
+    color: rgb(255, 24, 82);
     font-size: 2rem;
-
+    font-family: 'Tourney', cursive;
+}
+#bt{
+  text-decoration: none;
+  outline: none;
+  margin-top: 5rem;
+  padding: 0.4rem;
+  border-radius: 9px;
+  border: 1px solid black;
+  width: 8rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(252, 135, 135);
+  font-size: 1.2rem;
+  background-color: transparent;
+}
+#bt:hover{
+  color: rgb(92, 4, 58);
+  background-color: whitesmoke;
 }
 
 /* ---------------------------------Testimonial section------------------------------- */
@@ -71,7 +95,7 @@ body{
   max-width: 950px;
   width: 100%;
   overflow: hidden;
-  padding: 0px;
+  padding: 10px;
 }
 #testi-head{
   font-size: 3rem;

@@ -12,7 +12,7 @@
 }
 #contact::before{
         content: "";
-        background: url('../../components/img/bg-1.jpg') no-repeat center center/cover;
+        background: url('../../components/img/bg-contact.jpg') no-repeat center center/cover;
         position: absolute;
         top:0px;
         left:0px;
@@ -54,7 +54,7 @@
 .btn{
     outline: none;
     margin-top: 1rem;
-    padding: 0.4rem;
+    padding: 0rem;
     border-radius: 9px;
     border: 1px solid black;
     width: 5rem;
