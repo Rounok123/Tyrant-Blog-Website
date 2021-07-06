@@ -50,8 +50,7 @@ function footer() {
         <div class="footer-right">
           <p class="footer-company-about">
             <span>About the company</span>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
-            euismod convallis velit, eu auctor lacus vehicula sit amet.
+               Our mission is to enrich the new generation about the new technologies.New designs are freely available with demo and source code.
           </p>
 
           <div class="footer-icons">
