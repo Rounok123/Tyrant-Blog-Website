@@ -4,8 +4,8 @@ import './style.css';
 const Contact  = props => {
     return (
         <div id="contact">
-        <h1>Contact Us any Time</h1>
-        <form action="/" onsubmit="return validate()" id="form" autocomplete="off">
+        <h1>Reach Us any Time</h1>
+        <form action="/blogs" onsubmit="return validate()" id="form" autocomplete="off">
             <div class="form-control">
                 <input type="text" autocomplete="off" name="names" id="username" placeholder="Name"/>
                 <small></small>
