@@ -15,8 +15,10 @@ return (
 		</div>
 		<div id="my-team">
 			<h1 id="t">Our Team</h1>
-			<img src={Dimg} className="team"></img>
+			<img src={Dimg} className="team" alt="Avatar"></img>
+			<p className="a">"I am a Web Developer"</p>
 			<img src={Rimg} className="team"></img>
+			<p className="a">"I am a App Developer"</p>
 		</div>
 	</div>
 );

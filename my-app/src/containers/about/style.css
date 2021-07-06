@@ -72,7 +72,13 @@
     color: rgb(255, 127, 112);
 }
 .team{
-    height: 350px;
-    width: 350px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
     margin: 2px;
+}
+.a{
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(236, 95, 40);
 }
