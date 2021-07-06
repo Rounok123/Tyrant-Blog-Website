@@ -5,14 +5,14 @@
 
 1. After unzip the `TYRANT WEB BLOGGING` folder Open this using folder using vs code or    any other Text editor.
 
-2. Open the New Terminal by from the top and write   cd .\my-app\   and clink enter
+2. Open the New Terminal from the top and write   cd .\my-app\   and clink enter.
 
-3. Again Write      npm install     and click enter (`It will take few minute`) 
+3. Again Write      npm install     and click enter (`It will take few minute`). 
 
-4. Then write      npm start       and click enter (`And it will be hosted in the browser on http://localhost:3000/`)
+4. Then write      npm start       and click enter (`And it will host the website in the browser on http://localhost:3000/`).
 
 
-5. You will get a demostration video file just under the REAME.md you can go through it to to see how this website is actually working.(`You can't open the video file from vs code`)
+5. You will get a demostration video file under the REAME.md file, you can watch it to see how this website is actually working.(`You can't open the video file from vs code`)
 
 
 
