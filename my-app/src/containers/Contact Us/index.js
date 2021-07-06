@@ -26,7 +26,7 @@ const Contact  = props => {
                 <input type="text" name="" id="conpassword" placeholder="Confirm password"/>
                 <small></small>
             </div>
-            <button type="submit" class="btn">Signin</button>
+            <button type="submit" class="btn">Submit</button>
         </form>
         </div>
     );

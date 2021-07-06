@@ -1,6 +1,12 @@
 import React from "react";
 import Typed from "react-typed";
 import "./style.css";
+import a1 from '../../components/img/a-1.jpg';
+import a2 from '../../components/img/a-2.jpg';
+import a3 from '../../components/img/a-3.jpg';
+import a4 from '../../components/img/a-4.jpg';
+import a5 from '../../components/img/a-5.jpg';
+import a6 from '../../components/img/a-6.jpg';
 
 const Home = (props) => {
   return (
@@ -10,19 +16,21 @@ const Home = (props) => {
         <Typed
           className="text-type"
           strings={[
-            "Welcome to Tyrant blogging",
-            "Love For All, Hatred For None.",
-            "Die with memories, not dreams",
-            "Aspire to inspire before we expire",
+            "Welcome to Tyrant Web blogging",
+            "Are you interested to create beatiful web designs...?",
+            "Yeah you are in the right place !!!",
+            "Here you will get so many usefull web releted ideas",
+            "You may get a pirate hat in website cration",
+            "Let's Explore your passion in mordern way"
           ]}
           typeSpeed={50}
-          backSpeed={50}
+          backSpeed={40}
           loop
         />
+        <a href="/blogs" id="bt">Go To Blog</a>
       </div>
-
-      <div id="testimonials"></div>
-      <h1 id>Testimonials</h1>
+      <div id="testimonials">
+      <h1 id="testi-head">Our Happy Faces...</h1>
       <html lang="en" dir="ltr">
         <head>
           <meta charset="UTF-8" />
@@ -44,9 +52,9 @@ const Home = (props) => {
               <div class="cards">
                 <div class="card">
                   <div class="content">
-                    <div class="img"></div>
+                    <img src={a1} id="i"/>
                     <div class="details">
-                      <div class="name">Rounok Das</div>
+                      <div class="name">Samuel Rate</div>
                       <div class="job">Web Designer</div>
                     </div>
                     <div class="media-icons">
@@ -67,9 +75,9 @@ const Home = (props) => {
                 </div>
                 <div class="card">
                   <div class="content">
-                    <div class="img"></div>
+                    <img src={a2} id="i"/>
                     <div class="details">
-                      <div class="name">Dipsikha Banerjee</div>
+                      <div class="name">Danieel Fret</div>
                       <div class="job">UI Designer</div>
                     </div>
                     <div class="media-icons">
@@ -90,9 +98,9 @@ const Home = (props) => {
                 </div>
                 <div class="card">
                   <div class="content">
-                    <div class="img"></div>
+                    <img src={a3} id="i"/>
                     <div class="details">
-                      <div class="name">Rounok Das</div>
+                      <div class="name">Zias Khan</div>
                       <div class="job">Web Devloper</div>
                     </div>
                     <div class="media-icons">
@@ -115,9 +123,9 @@ const Home = (props) => {
               <div class="cards">
                 <div class="card">
                   <div class="content">
-                    <div class="img"></div>
+                    <img src={a4} id="i"/>
                     <div class="details">
-                      <div class="name">Dipsikha Banerjee</div>
+                      <div class="name">Frenklin Carlo</div>
                       <div class="job">App Developer</div>
                     </div>
                     <div class="media-icons">
@@ -138,7 +146,7 @@ const Home = (props) => {
                 </div>
                 <div class="card">
                   <div class="content">
-                    <div class="img"></div>
+                    <img src={a5} id="i"/>
                     <div class="details">
                       <div class="name">Adrina Calvo</div>
                       <div class="job">UI Designer</div>
@@ -161,7 +169,7 @@ const Home = (props) => {
                 </div>
                 <div class="card">
                   <div class="content">
-                    <div class="img"></div>
+                    <img src={a6} id="i"/>
                     <div class="details">
                       <div class="name">Nicole Lewis</div>
                       <div class="job">Web Devloper</div>
@@ -191,6 +199,7 @@ const Home = (props) => {
           </div>
         </body>
       </html>
+    </div>
     </div>
   );
 };
