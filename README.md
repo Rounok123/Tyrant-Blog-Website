@@ -1,3 +1,27 @@
+
+
+# Some Usefull instruction to run this app
+
+
+1. After unzip the `TYRANT WEB BLOGGING` folder Open this using folder using vs code or    any other Text editor.
+
+2. Open the New Terminal by from the top and write   cd .\my-app\   and clink enter
+
+3. Again Write      npm install     and click enter (`It will take few minute`) 
+
+4. Then write      npm start       and click enter (`And it will be hosted in the browser on http://localhost:3000/`)
+
+
+5. You will get a demostration video file just under the REAME.md you can go through it to to see how this website is actually working.(`You can't open the video file from vs code`)
+
+
+
+
+<!-- ------------------------No need to go Read this by these------------------- -->
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
