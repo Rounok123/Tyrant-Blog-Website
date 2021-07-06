@@ -7,6 +7,16 @@ body {
   /* background-color: rgba(198,206,201,0.5); */
   font-size: 16px;
 }
+.showcase
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    box-shadow: 20px;
+
+}
 
 .blog-card {
   border-radius: 10px;
@@ -15,6 +25,14 @@ body {
               -1px -1px 10px 0 rgba(0, 0, 0, 0.2);
   width: 300px;
   margin: 2vh;
+}
+.bimg{
+  margin-top: 8px;
+  margin-left: 8px;
+  height: 250px;
+  box-shadow: 2px 4px 8px 0 rgba(233, 134, 134, 0.2),
+              -1px -1px 10px 0 rgba(215, 236, 137, 0.2);
+  width: 300px;
 }
 
 .header {
@@ -36,7 +54,6 @@ body {
 .picture-wrapper {
   height: 300px;
   width: 100%;
-  background-image:url("https://www.thoughtco.com/thmb/9-TaSUt-qCdOp1Xh3P43mutTmeA=/2121x1414/filters:fill(auto,1)/GettyImages-887987150-5c770377c9e77c00011c82e6.jpg");
   background-size: cover;
 }
 
@@ -46,6 +63,8 @@ body {
 
 .title {
   font-size: 1.25em;
+  font-family: cursive;
+  font-style:inherit;
   padding: 6vh 4vh 2vh 4vh;
 }
 
@@ -57,6 +76,7 @@ body {
 
 .text {
   font-size: 1em;
+  font-family: cursive;
   padding: 4vh 4vh;
 }
 
