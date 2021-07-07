@@ -3,6 +3,14 @@
     margin: 0px;
     padding: 0px;
 }
+.s{
+   color: antiquewhite;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.g{
+    color: crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #contact{
     display: flex;
     flex-direction: column;
