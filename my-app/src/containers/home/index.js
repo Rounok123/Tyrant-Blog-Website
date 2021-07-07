@@ -12,7 +12,8 @@ const Home = (props) => {
   return (
     <div className="main">
       <div id="home">
-        <h1 id="header">Change the world by being yourself</h1>
+        <h1 id="h">˜”*°•.˜”*°• TYRANT WEB BLOGGIING •°*”˜.•°*”˜</h1>
+        <h2 id="header">Change the world by being yourself</h2>
         <Typed
           className="text-type"
           strings={[

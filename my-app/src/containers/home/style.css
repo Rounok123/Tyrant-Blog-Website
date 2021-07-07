@@ -26,11 +26,17 @@
 #header{
     color: #e2de00;
     margin-bottom: 7rem;
-    margin-top: 10.2rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
-    font-size: 52px;
+    font-size: 42px;
     font-family: 'Tourney', cursive;
+}
+#h{
+  color: coral;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+  text-transform: uppercase;
+  font-size: 52px;
 }
 #type{
     margin-top: 14px;
