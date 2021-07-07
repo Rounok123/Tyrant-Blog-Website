@@ -16,9 +16,9 @@ return (
 		<div id="my-team">
 			<h1 id="t">Our Team</h1>
 			<img src={Dimg} className="team" alt="Avatar"></img>
-			<p className="a">"I am a Web Developer"</p>
+			<p className="a">"I am a Web Developer" - ℝ𝕠𝕦𝕟𝕠𝕜 𝔻𝕒𝕤</p>
 			<img src={Rimg} className="team"></img>
-			<p className="a">"I am a App Developer"</p>
+			<p className="a">"I am a App Developer" - 𝓓𝓲𝓹𝓼𝓲𝓴𝓱𝓪 𝓑𝓪𝓷𝓮𝓻𝓳𝓮𝓮</p>
 		</div>
 	</div>
 );

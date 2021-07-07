@@ -21,7 +21,7 @@ function footer() {
             <a href="/contacts">Contact</a>
           </p>
 
-          <p class="footer-company-name">Tyrant © 2021</p>
+          <p class="footer-company-name">Tyrant © 2021 All rights reserved</p>
         </div>
 
         <div class="footer-center">
