@@ -2,6 +2,8 @@
 
 # Some Usefull instruction to run this app
 
+link: https://tyrant-blog-website.herokuapp.com/
+
 
 1. After unzipping the `TYRANT WEB BLOGGING` folder Open this using folder using vs code or    any other Text editor.
 
